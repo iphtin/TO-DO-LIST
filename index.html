@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div class="container">
+        <div class="header">
+            <h2>To-Do-List</h2>
+             <button class="showBtn" onclick="handleShow()">&#43; Add Task</button>
+        </div>
+        <div class="newtask">
+            <div class="addtask">
+                <span onclick="handleClose()" class="close">X</span>
+                <input type="text" class="input" placeholder="Title">
+                <textarea name="textarea" id="textarea" cols="30" placeholder="Description" rows="4"></textarea>
+                <input type="submit" name="submit" id="btn">
+            </div>
+        </div>
+        <div class="grid">
+            
+            </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
